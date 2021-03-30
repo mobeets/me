@@ -125,7 +125,8 @@
 
 .contact-button {
   @include border-radius(5px);
-  background-color: #efefef;
+  //background-color: #efefef;
+  border: 1px solid;
   text-decoration: none;
   text-align: center;
   display: inline-block;
@@ -133,7 +134,7 @@
   margin-right: 0.5em;
   padding: 0.5rem;
   //width: 220px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   @include sans_light;
   color: #333;
   //line-height: 35px;

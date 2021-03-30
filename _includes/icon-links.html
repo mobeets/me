@@ -2,9 +2,14 @@
 {% if site.resume_social_links %}
 <ul class="icon-links">
 
+  <!-- n.b. to create a new icon, create in illustrator starting from _assets/icons.ai -->
+  <!-- Then save as svg -->
+  <!-- Then copy to _includes/icons and change extension to html -->
+  <!-- Then (critical!) replace the <svg> header with that from a pre-existing icon -->
+
   <!-- Email link -->
   {% if site.resume_social_links.resume_email %}
-  <li class="icon-link-item"><a href="mailto:{{ site.resume_social_links.resume_email }}" class="icon-link" itemprop="sameAs"><img src="static/icons/icon-email.png" style="width:2.2em;"/></a></li>
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_email }}" class="icon-link" itemprop="sameAs">{% include icons/icon-email.html %}</a></li>
   {% endif %}
 
   <!-- GitHub link -->
