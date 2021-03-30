@@ -12,7 +12,7 @@ sass:
 resume_avatar:                  "true"
 resume_name:                    "Jay Hennig"
 resume_title:                   ""
-resume_header_intro: "<p>Hi! I am a postdoc in neural computation and machine learning at Carnegie Mellon University, advised by <a href="https://users.ece.cmu.edu/~byronyu/">Byron Yu</a> and <a href="http://www.cnbc.cmu.edu/~schase/index.php">Steve Chase</a>. I'm interested in using techniques from statistics and machine learning to understand how populations of neurons interact to perceive the world and drive behavior. I'm interested in using techniques from statistics and machine learning to understand how populations of neurons interact to perceive the world and drive behavior.</p>"
+resume_header_intro: "<p>Hi! I am a postdoc in neural computation and machine learning at Carnegie Mellon University, advised by <a href=\"https://users.ece.cmu.edu/~byronyu/\">Byron Yu</a> and <a href=\"http://www.cnbc.cmu.edu/~schase/index.php\">Steve Chase</a>. I'm interested in using techniques from statistics and machine learning to understand how populations of neurons interact to perceive the world and drive behavior.</p>"
 
 # Decide which sections to use
 # comment out to hide
@@ -41,7 +41,7 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
 #   resume_linkedin_url:          ""
   # resume_instagram_url:         "insert your Instagram URL here"
-#   resume_website_url:           ""
+  resume_website_url:           "https://mobeets.github.io/"
 #   resume_medium_url:            ""
 resume_print_social_links:      true
 
