@@ -104,16 +104,7 @@
           {% if site.resume_social_links.resume_scholar_url %}
             See my <a href="{{  site.resume_social_links.resume_scholar_url }}">Google Scholar</a> profile for an up-to-date listing of my publications.
           {% endif %}
-          <ul class="resume-item-list">
-            {% for paper in site.data.papers %}
-              <li>
-                <a href="{{ paper.url }}">"{{ paper.title }}"</a><br>
-                <span style="font-size:smaller;">
-                  <span style="color: gray;">{{ paper.authors }}</span>
-                  <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
-              </li><br>
-            {% endfor %}
-          </ul>
+          {% include papers-list.html %}
         </div>
       </section>
       {% endif %}
