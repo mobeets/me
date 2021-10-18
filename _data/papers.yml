@@ -1,8 +1,20 @@
 -
+    title: "How learning unfolds in the brain: toward an optimization view"
+    authors: "<b>JA Hennig</b>, ER Oby, DM Losey, AP Batista*, BM Yu*, SM Chase*"
+    journal: "Neuron"
+    volume: ""
+    year: 2021
+    url: https://www.cell.com/neuron/fulltext/S0896-6273(21)00677-2
+    image: Hennig2021b
+    imagetype: png
+    briefly: "In this perspective, we consider the idea that learning in the brain can be described in terms of optimization, similar to learning in artificial neural networks (ANNs). We highlight three key features of how neural population changes with learning that differ from ANNs, suggesting refinements to this optimization view."
+    summary: "How do changes in the brain lead to learning? To answer this question, consider an artificial neural network (ANN), where learning proceeds by optimizing a given objective or cost function. This “optimization framework” may provide new insights into how the brain learns, as many idiosyncratic features of neural activity can be recapitulated by an ANN trained to perform the same task. Nevertheless, there are key features of how neural population activity changes throughout learning that cannot be readily explained in terms of optimization and are not typically features of ANNs. Here we detail three of these features: (1) the inflexibility of neural variability throughout learning, (2) the use of multiple learning processes even during simple tasks, and (3) the presence of large task-nonspecific activity changes. We propose that understanding the role of these features in the brain will be key to describing biological learning using an optimization framework."
+    highlight: true
+-
     title: "Learning is shaped by abrupt changes in neural engagement"
     authors: "<b>JA Hennig</b>, ..., AP Batista*, SM Chase*, BM Yu*"
     journal: "Nature Neuroscience"
-    volume: "1546-1726"
+    volume: "24(5), 727-736"
     year: 2021
     url: https://www.nature.com/articles/s41593-021-00822-8
     image: Hennig2021
