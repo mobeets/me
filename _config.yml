@@ -12,7 +12,7 @@ sass:
 resume_avatar:                  "true"
 resume_name:                    "Jay Hennig"
 resume_title:                   ""
-resume_header_intro: "<p>Hi! I am a neuroscientist interested in how populations of neurons interact to perceive the world and drive behavior, a topic I approach using techniques from statistics and machine learning.</p><p>I am currently a postdoc at Harvard University where I work with <a href=\"https://gershmanlab.com/\">Sam Gershman</a>. Previously, I got my Ph.D. in neural computation and machine learning at Carnegie Mellon University, where I studied learning using brain-computer interfaces with <a href=\"https://users.ece.cmu.edu/~byronyu/\">Byron Yu</a>, <a href=\"http://www.cnbc.cmu.edu/~schase/index.php\">Steve Chase</a>, and <a href=\"https://smile.pitt.edu/\">Aaron Batista</a>.</p>"
+resume_header_intro: "<p>Hi! I am a neuroscientist interested in how populations of neurons interact to perceive the world and drive behavior, a topic I approach using techniques from statistics and machine learning.</p><p>I am currently a postdoc at Harvard University with <a href=\"https://gershmanlab.com/\">Sam Gershman</a>, where I study the neural representations of reinforcement learning. Previously, I got my Ph.D. in neural computation and machine learning at Carnegie Mellon University, where I studied learning using brain-computer interfaces with <a href=\"https://users.ece.cmu.edu/~byronyu/\">Byron Yu</a>, <a href=\"http://www.cnbc.cmu.edu/~schase/index.php\">Steve Chase</a>, and <a href=\"https://smile.pitt.edu/\">Aaron Batista</a>.</p>"
 
 # Decide which sections to use
 # comment out to hide

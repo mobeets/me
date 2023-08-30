@@ -1,8 +1,21 @@
 -
+    title: "Emergence of belief-like representations through reinforcement learning"
+    authors: "<b>JA Hennig</b>, SA Romero-Pinto, T Yamaguchi, SW Linderman, N Uchida, SJ Gershman"
+    journal: "PLOS Computational Biology"
+    volume: ""
+    year: "in press"
+    url: https://www.biorxiv.org/content/10.1101/2023.04.04.535512v1.abstract
+    code: https://github.com/mobeets/value-rnn-beliefs
+    image: Hennig2023
+    imagetype: png
+    briefly: "Animals are thought to predict rewards using reinforcement learning (RL). In environments with hidden states, animals may require \"beliefs,\" or probabilistic estimates of the hidden states. We show that such belief-like representations emerge in recurrent neural networks (RNN) trained to perform RL in environments with hidden states."
+    summary: "To behave adaptively, animals must learn to predict future reward, or value. To do this, animals are thought to learn reward predictions using reinforcement learning. However, in contrast to classical models, animals must learn to estimate value using only incomplete state information. Previous work suggests that animals estimate value in partially observable tasks by first forming “beliefs”—optimal Bayesian estimates of the hidden states in the task. Although this is one way to solve the problem of partial observability, it is not the only way, nor is it the most computationally scalable solution in complex, real-world environments. Here we show that a recurrent neural network (RNN) can learn to estimate value directly from observations, generating reward prediction errors that resemble those observed experimentally, without any explicit objective of estimating beliefs. We integrate statistical, functional, and dynamical systems perspectives on beliefs to show that the RNN’s learned representation encodes belief information, but only when the RNN’s capacity is sufficiently large. These results illustrate how animals can estimate value in tasks without explicitly estimating beliefs, yielding a representation useful for systems with limited capacity."
+    highlight: true
+-
     title: "How learning unfolds in the brain: toward an optimization view"
     authors: "<b>JA Hennig</b>, ER Oby, DM Losey, AP Batista*, BM Yu*, SM Chase*"
     journal: "Neuron"
-    volume: ""
+    volume: "109 (23), 3720-3735"
     year: 2021
     url: https://www.cell.com/neuron/fulltext/S0896-6273(21)00677-2
     image: Hennig2021b
@@ -17,6 +30,7 @@
     volume: "24(5), 727-736"
     year: 2021
     url: https://www.nature.com/articles/s41593-021-00822-8
+    code: https://github.com/mobeets/neural-engagement
     image: Hennig2021
     imagetype: gif
     briefly: "We identified large fluctuations in neural population activity in motor cortex (M1) indicative of arousal-like internal state changes. These changes in neural activity helped to explain why animals learned some tasks more quickly than others."
@@ -55,6 +69,7 @@
     url: https://elifesciences.org/articles/36774
     image: Hennig2018
     imagetype: png
+    code: https://github.com/mobeets/neural-redundancy-elife2018
     briefly: "Millions of neurons in the brain control the activity of tens of muscles in the arm, meaning neural activity is redundant. We compared various hypotheses for how the brain deals with this redundancy by recording in primary motor cortex while subjects performed a brain-computer interface task."
     summary: "Millions of neurons drive the activity of hundreds of muscles, meaning many different neural population activity patterns could generate the same movement. Studies have suggested that these redundant (i.e. behaviorally equivalent) activity patterns may be beneficial for neural computation. However, it is unknown what constraints may limit the selection of different redundant activity patterns. We leveraged a brain-computer interface, allowing us to define precisely which neural activity patterns were redundant. Rhesus monkeys made cursor movements by modulating neural activity in primary motor cortex. We attempted to predict the observed distribution of redundant neural activity. Principles inspired by work on muscular redundancy did not accurately predict these distributions. Surprisingly, the distributions of redundant neural activity and task-relevant activity were coupled, which enabled accurate predictions of the distributions of redundant activity. This suggests limits on the extent to which redundancy may be exploited by the brain for computation."
     highlight: true
@@ -67,6 +82,7 @@
     url: https://arxiv.org/abs/1711.07050
     image: Hennig2017
     imagetype: png
+    code: https://github.com/mobeets/vrnn
     demo: http://neural-synth.herokuapp.com/
     briefly: "We augment a neural network known as a variational autoencoder (VAE) to classify the observed data while also learning its latent representation. We show that when this network is combined with an LSTM and used to generate music, the network plays fewer incorrect notes than a standard VAE+LSTM."
     summary: "The variational autoencoder (VAE) is a popular probabilistic generative model. However, one shortcoming of VAEs is that the latent variables cannot be discrete, which makes it difficult to generate data from different modes of a distribution. Here, we propose an extension of the VAE framework that incorporates a classifier to infer the discrete class of the modeled data. To model sequential data, we can combine our Classifying VAE with a recurrent neural network such as an LSTM. We apply this model to algorithmic music generation, where our model learns to generate musical sequences in different keys. Most previous work in this area avoids modeling key by transposing data into only one or two keys, as opposed to the 10+ different keys in the original music. We show that our Classifying VAE and Classifying VAE+LSTM models outperform the corresponding non-classifying models in generating musical samples that stay in key. This benefit is especially apparent when trained on untransposed music data in the original keys."
