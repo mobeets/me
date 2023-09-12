@@ -2,9 +2,9 @@
     title: "Emergence of belief-like representations through reinforcement learning"
     authors: "<b>JA Hennig</b>, SA Romero-Pinto, T Yamaguchi, SW Linderman, N Uchida, SJ Gershman"
     journal: "PLOS Computational Biology"
-    volume: ""
-    year: "in press"
-    url: https://www.biorxiv.org/content/10.1101/2023.04.04.535512v1.abstract
+    volume: "19 (9): e1011067"
+    year: 2023
+    url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011067
     code: https://github.com/mobeets/value-rnn-beliefs
     image: Hennig2023
     imagetype: png
