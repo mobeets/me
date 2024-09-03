@@ -27,7 +27,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          {{ site.resume_header_intro }}
+          <p>{{ site.data.profile.intro }}</p>
         </div>
         {% include menu-list.html %}
         {% if site.resume_section_interests %}
@@ -91,7 +91,7 @@
       </section>
       {% endif %}
       
-      {% if site.resume_section_papers %}
+      <!-- {% if site.resume_section_papers %}
       <section class="content-section">
         <header class="section-header">
           <h2>Academic Publications</h2>
@@ -100,7 +100,7 @@
           {% include papers-list.html %}
         </div>
       </section>
-      {% endif %}
+      {% endif %} -->
       
       {% if site.resume_section_talks %}
       <section class="content-section">
